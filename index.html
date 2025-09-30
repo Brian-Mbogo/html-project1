@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brian's Portfolio</title>
+
+    <!-- Link to styles.css -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <a href="#home">Home</a> 
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <header id="home" class="hero">
+        <h1>Welcome to Brian's Portfolio</h1>
+        <p>Hi! I'm Brian — learning HTML, one tag at a time.</p>
+    </header>
+
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>I enjoy learning how websites are built. Here’s what I like:</p>
+        <ul>
+            <li>Learning HTML & CSS</li>
+            <li>Problem solving with code</li>
+            <li>Building projects from scratch</li>
+        </ul>
+
+        <h3>Watch My Intro</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <section id="work" class="section">
+        <h2>My Projects</h2>
+        <p>Here are some things I’ve worked on:</p>
+        <ol>
+            <li>Personal Bio Page</li>
+            <li>Restaurant Menu Layout</li>
+            <li>Contact Form Practice</li>
+        </ol>
+
+        <h3>Project Deadlines</h3>
+        <table class="project-table">
+            <tr>
+                <th>Project</th>
+                <th>Status</th>
+                <th>Deadline</th>
+            </tr>
+            <tr>
+                <td>Personal Bio Page</td>
+                <td>Done</td>
+                <td>01.01.2025</td>
+            </tr>
+            <tr>
+                <td>Restaurant Menu</td>
+                <td>In Progress</td>
+                <td>04.10.2025</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="resume" class="section">
+        <h2>Resume</h2>
+        <p>Download: <a href="resume.pdf" download>My Resume (PDF)</a></p>
+
+        <h3>Audio Clip (Coming Soon!)</h3>
+        <p><em>I'm working on recording a short intro — check back later!</em></p>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+        <form action="#" method="post" class="contact-form">
+            <label for="name">Your Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Your Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Your Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+            <input type="submit" value="Send Message">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Brian's Portfolio. All rights reserved.</p>
+        <p>
+            <a href="https://github.com/brian-mbogo" target="_blank">GitHub</a> |
+            <a href="mailto:mbogo7070@gmail.com">Email Me</a>
+        </p>
+    </footer>
+
+</body>
+</html>
